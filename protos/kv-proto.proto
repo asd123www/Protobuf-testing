@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+package kv.proto;
+
+
+message RequestMessage {
+    bytes opt = 1;
+    bytes key = 2;
+    bytes value = 3;
+}
